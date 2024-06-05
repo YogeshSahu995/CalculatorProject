@@ -9,6 +9,7 @@ buttons.forEach((button)=>{
         if(e.target.innerHTML ==='DEL'){
             str = str.substring(0, str.length-1)
             display.value = str;
+            console.log('luil')
         }
         else if(e.target.innerHTML === 'AC'){
             str = ''
